@@ -219,7 +219,7 @@ export class UpdateProfileComponent implements OnInit, OnChanges {
             confirmButton: "btn btn-light",
             cancelButton: "btn btn-light no",
           },
-          confirmButtonText: lowBalance ? "Buy $DESO" : null,
+          confirmButtonText: lowBalance ? "Buy $UBER" : null,
           cancelButtonText: lowBalance ? "Later" : null,
           showCancelButton: !!lowBalance,
         }).then((res) => {

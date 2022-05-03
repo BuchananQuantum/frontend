@@ -146,6 +146,6 @@ export class NftBurnModalComponent implements OnInit {
   }
 
   bidAmountDeSoFormatted() {
-    return isNumber(this.bidAmountDeSo) ? `~${this.bidAmountDeSo.toFixed(2)} $DESO` : "";
+    return isNumber(this.bidAmountDeSo) ? `~${this.bidAmountDeSo.toFixed(2)} $UBER` : "";
   }
 }

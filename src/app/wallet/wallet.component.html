@@ -60,7 +60,7 @@
     class="d-flex align-items-center justify-content-between fs-18px font-weight-bold p-15px holdings__divider border-bottom border-color-grey"
     *ngIf="!inTutorial"
   >
-    <div>$DESO</div>
+    <div>$UBER</div>
     <div class="fs-15px" style="margin-top: 2px" *ngIf="!inTutorial">
       <a
         *ngIf="globalVars.loggedInUser"
@@ -83,7 +83,7 @@
       <div class="col-3 font-weight-bold">Balance</div>
       <div class="col-9">
         <div>
-          {{ globalVars.nanosToDeSo(globalVars.loggedInUser.BalanceNanos, 9) }} $DESO
+          {{ globalVars.nanosToDeSo(globalVars.loggedInUser.BalanceNanos, 9) }} $UBER
           <i
             *ngIf="globalVars.loggedInUser.UnminedBalanceNanos != 0 && globalVars.showProcessingSpinners"
             class="fa fa-spinner fc-muted"

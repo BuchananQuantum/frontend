@@ -21,7 +21,7 @@ export const environment = {
   },
   node: {
     id: 1,
-    name: "DeSo",
+    name: "UberBooty",
     url: "https://node.deso.org",
     logoAssetDir: "/assets/deso/",
   },

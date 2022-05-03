@@ -849,11 +849,11 @@ export class AdminComponent implements OnInit {
   ) {
     const updateBitcoinMessage = usdPerBitcoin >= 0 ? `Update Bitcoin to USD exchange rate: ${usdPerBitcoin}\n` : "";
     const createProfileFeeNanosMessage =
-      createProfileFeeNanos >= 0 ? `Create Profile Fee (in $DESO): ${createProfileFeeNanos}\n` : "";
+      createProfileFeeNanos >= 0 ? `Create Profile Fee (in $UBER): ${createProfileFeeNanos}\n` : "";
     const minimumNetworkFeeNanosPerKBMessage =
       minimumNetworkFeeNanosPerKB >= 0 ? `Minimum Network Fee Nanos Per KB: ${minimumNetworkFeeNanosPerKB}\n` : "";
     const maxCopiesMessage = maxCopiesPerNFT >= 0 ? `Max Copies Per NFT: ${maxCopiesPerNFT}\n` : "";
-    const createNFTFeeNanosMessage = createNFTFeeNanos >= 0 ? `Create NFT Fee (in $DESO): ${createNFTFeeNanos}\n` : "";
+    const createNFTFeeNanosMessage = createNFTFeeNanos >= 0 ? `Create NFT Fee (in $UBER): ${createNFTFeeNanos}\n` : "";
     SwalHelper.fire({
       target: this.globalVars.getTargetComponentSelector(),
       title: "Are you ready?",

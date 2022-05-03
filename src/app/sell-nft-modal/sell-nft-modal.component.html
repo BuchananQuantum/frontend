@@ -54,7 +54,7 @@
               class="d-flex align-items-center mb-0 justify-content-between p-0"
               [ngClass]="{ 'col-7': post.NumNFTCopies == 1, 'col-5': post.NumNFTCopies > 1 }"
             >
-              <span>{{ globalVars.nanosToDeSo(bidEntry.BidAmountNanos, 5) }} $DESO</span>
+              <span>{{ globalVars.nanosToDeSo(bidEntry.BidAmountNanos, 5) }} $UBER</span>
               <span>~{{ globalVars.nanosToUSD(bidEntry.BidAmountNanos, 2) }}</span>
             </div>
           </div>
@@ -69,7 +69,7 @@
         <div class="col-6 m-0px">Selling Price</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(sellingPrice, 3)}} $DESO
+            {{globalVars.abbreviateNumber(sellingPrice, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(sellingPrice*1e9, 2) }})</div>
         </div>
@@ -78,7 +78,7 @@
         <div class="col-6 m-0px">Earnings</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(earnings, 3)}} $DESO
+            {{globalVars.abbreviateNumber(earnings, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(earnings*1e9, 2) }})</div>
         </div>
@@ -87,7 +87,7 @@
         <div class="col-6 m-0px">NFT Creator royalty</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(creatorRoyalty, 3)}} $DESO
+            {{globalVars.abbreviateNumber(creatorRoyalty, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(creatorRoyalty*1e9, 2) }})</div>
         </div>
@@ -96,7 +96,7 @@
         <div class="col-6 m-0px">DESO Royalties to other users</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(additionalCreatorRoyalty, 3)}} $DESO
+            {{globalVars.abbreviateNumber(additionalCreatorRoyalty, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(additionalCreatorRoyalty*1e9, 2) }})</div>
         </div>
@@ -105,7 +105,7 @@
         <div class="col-6 m-0px">NFT Creator Coin-holder royalty</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(coinRoyalty, 3)}} $DESO
+            {{globalVars.abbreviateNumber(coinRoyalty, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(coinRoyalty*1e9, 2) }})</div>
         </div>
@@ -114,7 +114,7 @@
         <div class="col-6 m-0px">Other Creator Coin-holder royalties</div>
         <div class="col-6 m-0px d-flex flex-wrap justify-content-end">
           <div>
-            {{globalVars.abbreviateNumber(additionalCoinRoyalty, 3)}} $DESO
+            {{globalVars.abbreviateNumber(additionalCoinRoyalty, 3)}} $UBER
           </div>
           <div class="text-grey7 d-lg-inline-block d-block">(~{{ globalVars.nanosToUSD(additionalCoinRoyalty*1e9, 2) }})</div>
         </div>

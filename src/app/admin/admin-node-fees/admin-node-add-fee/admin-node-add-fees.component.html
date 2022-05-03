@@ -19,7 +19,7 @@
   </div>
   <div class="input-group py-15px">
     <div class="input-group-prepend">
-      <span class="input-group-text">Fee Amount Received (in $DESO)</span>
+      <span class="input-group-text">Fee Amount Received (in $UBER)</span>
     </div>
     <input class="form-control" type="number" matInput [(ngModel)]="feeAmount" />
   </div>
@@ -36,7 +36,7 @@
         [hideFollowLink]="true"
         [singleColumn]="true"
       ></simple-profile-card>
-      <span> {{ globalVars.nanosToDeSo(transactionFee.AmountNanos) }} $DESO </span>
+      <span> {{ globalVars.nanosToDeSo(transactionFee.AmountNanos) }} $UBER </span>
     </div>
   </div>
 </div>

@@ -168,7 +168,7 @@ export class NotificationsListComponent {
         result.icon = "fas fa-money-bill-wave-alt fc-green";
         result.action =
           `${actorName} sent you ${this.globalVars.nanosToDeSo(txnAmountNanos)} ` +
-          `$DESO!</b> (~${this.globalVars.nanosToUSD(txnAmountNanos, 2)})`;
+          `$UBER!</b> (~${this.globalVars.nanosToUSD(txnAmountNanos, 2)})`;
       }
       return result;
     } else if (txnMeta.TxnType === "CREATOR_COIN") {

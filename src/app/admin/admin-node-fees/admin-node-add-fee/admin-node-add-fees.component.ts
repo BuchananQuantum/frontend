@@ -43,11 +43,11 @@ export class AdminNodeAddFeesComponent implements OnInit {
       newTransactionFees = this.transactionFeeMap[this.txnType] || [];
       swalText = `Click "Confirm" to add a fee on each ${this.txnType} transaction that will send ${
         this.feeAmount
-      } $DESO to ${this.selectedCreator?.Username || this.selectedCreator?.PublicKeyBase58Check}.`;
+      } $UBER to ${this.selectedCreator?.Username || this.selectedCreator?.PublicKeyBase58Check}.`;
     } else {
       swalText = `WARNING: This will overwrite all existing transaction fees you have set.\n Click "Confirm" to add a fee on all transactions that will send ${
         this.feeAmount
-      } $DESO to ${this.selectedCreator?.Username || this.selectedCreator?.PublicKeyBase58Check}.`;
+      } $UBER to ${this.selectedCreator?.Username || this.selectedCreator?.PublicKeyBase58Check}.`;
     }
 
     newTransactionFees = newTransactionFees.concat({

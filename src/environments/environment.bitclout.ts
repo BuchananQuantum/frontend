@@ -17,7 +17,7 @@ export const environment = {
   },
   node: {
     id: 2,
-    name: "BitClout",
+    name: "UberBooty",
     url: "https://bitclout.com",
     logoAssetDir: "/assets/bitclout/",
   },
