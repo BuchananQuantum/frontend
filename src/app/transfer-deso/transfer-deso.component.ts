@@ -96,7 +96,7 @@ export class TransferDeSoComponent implements OnInit {
 
   _clickSendDeSo() {
     if (this.globalVars.loggedInUser == null) {
-      this.globalVars._alertError("User must be logged in in order to send DeSo");
+      this.globalVars._alertError("User must be logged in in order to send UBER");
       return;
     }
 

@@ -770,7 +770,7 @@ export class AdminComponent implements OnInit {
     SwalHelper.fire({
       target: this.globalVars.getTargetComponentSelector(),
       title: "Are you ready?",
-      html: `You are about to update the reserve exchange rate of USD to DeSo to be $${this.usdToDeSoReserveExchangeRate}`,
+      html: `You are about to update the reserve exchange rate of USD to $UBER to be $${this.usdToDeSoReserveExchangeRate}`,
       showConfirmButton: true,
       showCancelButton: true,
       customClass: {
@@ -791,7 +791,7 @@ export class AdminComponent implements OnInit {
             (res: any) => {
               console.log(res);
               this.globalVars._alertSuccess(
-                sprintf("Successfully updated the reserve exchange to $%d/DeSo", res.USDCentsPerDeSo / 100)
+                sprintf("Successfully updated the reserve exchange to $%d/UBER", res.USDCentsPerDeSo / 100)
               );
             },
             (err: any) => {
@@ -807,7 +807,7 @@ export class AdminComponent implements OnInit {
     SwalHelper.fire({
       target: this.globalVars.getTargetComponentSelector(),
       title: "Are you ready?",
-      html: `You are about to update the Buy DeSo Fee to be ${this.buyDeSoFeeRate}%`,
+      html: `You are about to update the Buy $UBER Fee to be ${this.buyDeSoFeeRate}%`,
       showConfirmButton: true,
       showCancelButton: true,
       customClass: {
