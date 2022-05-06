@@ -9,11 +9,15 @@
       class="w-100 h-100 text-center"
       [link]="'/' + globalVars.RouteNames.WALLET"
     >
-      <i class="icon-wallet fs-25px"></i>
+      <i class="bi bi-wallet2 fs-25px"></i>
+    </bottom-bar-mobile-tab>
+
+    <bottom-bar-mobile-tab class="w-100 h-100 text-center" [link]="'/' + globalVars.RouteNames.CONNECTIONS">
+      <i class="bi bi-qr-code-scan fs-25px"></i>
     </bottom-bar-mobile-tab>
 
     <bottom-bar-mobile-tab class="w-100 h-100 text-center" [link]="'/' + globalVars.RouteNames.TRENDS">
-      <i class="icon-up-arrow fs-25px"></i>
+      <i class="bi bi-graph-up-arrow fs-25px"></i>
     </bottom-bar-mobile-tab>
 
     <bottom-bar-mobile-tab
@@ -21,7 +25,7 @@
       class="w-100 h-100 text-center"
       [link]="'/' + globalVars.RouteNames.NOTIFICATIONS"
     >
-      <i class="icon-notifications fs-25px"></i>
+      <i class="bi bi-bell fs-25px"></i>
     </bottom-bar-mobile-tab>
 
     <bottom-bar-mobile-tab
@@ -29,7 +33,7 @@
       class="w-100 h-100 text-center"
       [link]="'/' + globalVars.RouteNames.INBOX_PREFIX"
     >
-      <i class="icon-messages fs-25px">
+      <i class="bi bi-chat-dots fs-25px">
         <div
           *ngIf="globalVars.messageResponse && globalVars.messageResponse.NumberOfUnreadThreads != 0"
           class="bottom-bar__message-notifications-bubble roboto-mono"

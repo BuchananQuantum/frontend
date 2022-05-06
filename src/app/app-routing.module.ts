@@ -38,6 +38,7 @@ import { DiamondTutorialPageComponent } from "./tutorial/diamond-tutorial-page/d
 import { CreatePostTutorialPageComponent } from "./tutorial/create-post-tutorial-page/create-post-tutorial-page.component";
 import { SupplyMonitoringStatsPageComponent } from "./supply-monitoring-stats-page/supply-monitoring-stats-page.component";
 import { DaoCoinsPageComponent } from "./dao-coins/dao-coins-page/dao-coins-page.component";
+import { ConnectionsComponent } from "./connections/connections.component"
 
 class RouteNames {
   // Not sure if we should have a smarter schema for this, e.g. what happens if we have
@@ -76,6 +77,7 @@ class RouteNames {
   public static LANDING = "/";
   public static DIAMONDS = "diamonds";
   public static TRENDS = "trends";
+  public static CONNECTIONS = "connections"
   public static REFERRALS = "referrals";
   public static NFT = "nft";
   public static VERIFY_EMAIL = "verify-email";
@@ -130,6 +132,7 @@ const routes: Routes = [
   { path: RouteNames.USER_PREFIX + "/:username/:tradeType", component: TradeCreatorPageComponent, pathMatch: "full" },
   { path: RouteNames.GET_STARTER_DESO, component: GetStarterDeSoPageComponent, pathMatch: "full" },
   { path: RouteNames.TRENDS, component: TrendsPageComponent, pathMatch: "full" },
+  { path: RouteNames.CONNECTIONS, component: ConnectionsComponent, pathMatch: "full" },
   { path: RouteNames.VERIFY_EMAIL + "/:publicKey/:emailHash", component: VerifyEmailComponent, pathMatch: "full" },
   // TUTORIAL ROUTES
   {
