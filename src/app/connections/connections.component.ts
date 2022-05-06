@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from "@angular/platform-browser";
+import { environment } from "src/environments/environment";
 
 @Component({
   selector: 'app-connections',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConnectionsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.titleService.setTitle(`Connections - ${environment.node.name}`);
   }
 
 }
