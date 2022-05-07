@@ -44,17 +44,7 @@
           [buttonLabel]="'Connections'"
         ></left-bar-button>
 
-        <left-bar-button
-          [buttonLabel]="'Mobile Meet's'"
-        ></left-bar-button>
-
-        <left-bar-button
-          [buttonLabel]="'Date Proposal's'"
-        ></left-bar-button>
-
-        <left-bar-button
-          [buttonLabel]="'Relations'"
-        ></left-bar-button>
+        
 
         <left-bar-button
           [link]="'/' + globalVars.RouteNames.CREATORS"
@@ -68,20 +58,20 @@
 
         <div class="w-100 d-flex pt-15px pl-15px" *ngIf="globalVars.showJumio && !globalVars.loggedInUser?.JumioVerified" (click)="globalVars.launchGetFreeDESOFlow()">
           <a class="left-bar__dot-inactive">·</a>
-          <a class="cursor-pointer fs-15px text-grey5">Get Verified</a>
+          <a class="cursor-pointer fs-15px text-grey5">Get Free $UBER</a>
         </div>
 
         <div class="p-15px" *ngIf="globalVars.loggedInUser?.ProfileEntryResponse"></div>
         <left-bar-button
           [link]="AppRoutingModule.profilePath(globalVars.loggedInUser.ProfileEntryResponse?.Username)"
           [queryParams]="{ 'nftTab': 'my_bids', 'tab': 'nfts' }"
-          [buttonLabel]="'My Connection Bids'"
+          [buttonLabel]="'My NFT Bids'"
           *ngIf="globalVars.loggedInUser?.ProfileEntryResponse"
         ></left-bar-button>
         <left-bar-button
           [link]="AppRoutingModule.profilePath(globalVars.loggedInUser.ProfileEntryResponse?.Username)"
           [queryParams]="{ 'nftTab': 'my_gallery', 'tab': 'nfts' }"
-          [buttonLabel]="'Subscription's'"
+          [buttonLabel]="'My NFT Gallery'"
           *ngIf="globalVars.loggedInUser?.ProfileEntryResponse"
         ></left-bar-button>
 
@@ -97,8 +87,8 @@
           [buttonLabel]="'Send $UBER'"
         ></left-bar-button>
 
-        <left-bar-button [link]="'/' + globalVars.RouteNames.WALLET" [buttonLabel]="'QRC Wallet'"></left-bar-button>
-        <left-bar-button [link]="'/' + globalVars.RouteNames.DAO" [buttonLabel]="'JOJ'"></left-bar-button>
+        <left-bar-button [link]="'/' + globalVars.RouteNames.WALLET" [buttonLabel]="'Wallet'"></left-bar-button>
+        <left-bar-button [link]="'/' + globalVars.RouteNames.DAO" [buttonLabel]="'DAO'"></left-bar-button>
 
 
         <div class="p-15px"></div>
@@ -190,7 +180,7 @@
 
       <left-bar-button
         [link]="'/' + globalVars.RouteNames.CREATORS"
-        [buttonLabel]="'Get Verified'"
+        [buttonLabel]="'Buy Creator Coins'"
       ></left-bar-button>
 
       <left-bar-button
