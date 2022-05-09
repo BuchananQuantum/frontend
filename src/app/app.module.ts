@@ -324,7 +324,7 @@ const greenishTheme: Theme = { key: "greenish", name: "Green Theme" };
     DaoCoinsPageComponent,
     TransferDAOCoinModalComponent,
     BurnDaoCoinModalComponent,
-    ConnectionsComponent
+    ConnectionsComponent,
   ],
   imports: [
     BrowserModule,
