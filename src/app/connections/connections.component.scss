@@ -1,0 +1,155 @@
+.user-intro-card {
+    height: 400px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.70) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.70) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.70) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.70) 100%);
+    color: #FFFFFF;
+}
+.user-intro-name {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 2em;
+}
+.user-intro-info {
+    padding-top: 19px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    position: absolute;
+    object-position: bottom;
+    bottom: 0px;
+    width: 100%;
+
+
+}
+.uberbooty-intro-card {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    /* [disabled]background-color: #FFFFFF; */
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    margin-bottom: 25px;
+}
+.uberbooty-intro-card p {
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.uberbooty-intro card h4 {
+    margin-bottom: 5px;
+
+}
+.trans-card-bg {
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.35) 100%);
+}
+#recently-active-home {
+    /* [disabled]background-image: -webkit-linear-gradient(270deg,rgba(7,49,92,0.50) 0%,rgba(7,49,92,0.50) 100%), url(assets/img/bgk/bg-2.jpg); */
+    /* [disabled]background-image: -moz-linear-gradient(270deg,rgba(7,49,92,0.50) 0%,rgba(7,49,92,0.50) 100%), url(assets/img/bgk/bg-2.jpg); */
+    /* [disabled]background-image: -o-linear-gradient(270deg,rgba(7,49,92,0.50) 0%,rgba(7,49,92,0.50) 100%), url(assets/img/bgk/bg-2.jpg); */
+    /* [disabled]background-image: linear-gradient(180deg,rgba(7,49,92,0.50) 0%,rgba(7,49,92,0.50) 100%), url(assets/img/bgk/bg-2.jpg); */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: color-dodge;
+}
+#recently-active-home h2 {
+    /* [disabled]color: #FFFFFF; */
+}
+.feature-icon {
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    max-width: 6em;
+    margin-top: 3px;
+}
+.type-badge {
+    width: 61px;
+    margin-top: -9px;
+    margin-left: 16px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bg-gradient-primary {
+    background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%) !important;
+}
+.gallery-item::before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity .3s ease-in-out;
+    background-color: rgba(19,16,34,.4);
+    content: "";
+    opacity: 0;
+    z-index: 1;
+}
+.uber-images {
+    background-size: contain; background-repeat: no-repeat; background-position: center center; background-blend-mode: darken;
+}
+
+.zindex-2 {
+    z-index: 2 !important;
+}
+.start-0 {
+    left: 0 !important;
+}
+.top-0 {
+    top: 0 !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.bg-repeat-0 {
+    background-repeat: no-repeat !important;
+}
+.bg-size-cover {
+    background-size: cover !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.h-100 {
+    height: 100% !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+.hubspot-link__container {
+display: none;
+}
+.hs-button {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
