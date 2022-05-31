@@ -171,9 +171,13 @@ import { BurnDaoCoinModalComponent } from "./dao-coins/burn-dao-coin-modal/burn-
 // Modular Themes for DeSo by Carsen Klock @carsenk
 import { ThemeModule } from "./theme/theme.module";
 import { Theme } from "./theme/symbols";
+<<<<<<< HEAD
 import { RightBarAdsComponent } from './right-bar-creators/right-bar-ads/right-bar-ads.component';
 import { ConnectionsComponent } from './connections/connections.component';
 import { ConnectionsFilterComponent } from './connections/connections-filter/connections-filter.component';
+=======
+import { ConnectionsComponent } from './connections/connections.component';
+>>>>>>> dd91f545af0b12144e263a5df0782fa884e3d7a7
 const lightTheme: Theme = { key: "light", name: "Light Theme" };
 const darkTheme: Theme = { key: "dark", name: "Dark Theme" };
 const icydarkTheme: Theme = { key: "icydark", name: "Icy Dark Theme" };
@@ -326,9 +330,13 @@ const greenishTheme: Theme = { key: "greenish", name: "Green Theme" };
     DaoCoinsPageComponent,
     TransferDAOCoinModalComponent,
     BurnDaoCoinModalComponent,
+<<<<<<< HEAD
     RightBarAdsComponent,
     ConnectionsComponent,
     ConnectionsFilterComponent,
+=======
+    ConnectionsComponent,
+>>>>>>> dd91f545af0b12144e263a5df0782fa884e3d7a7
   ],
   imports: [
     BrowserModule,
